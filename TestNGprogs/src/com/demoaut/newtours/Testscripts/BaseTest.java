@@ -50,7 +50,7 @@ public class BaseTest {
 
 	@AfterSuite
 	public void tearDown() {
-		sendPDFReportByGMail("kapalakiran@gmail.com", "9040143430", "kumar.kiran832@gmail.com", "PDF Report", "");
+		sendPDFReportByGMail("kapalakiran@gmail.com", "bichkum", "kumar.kiran832@gmail.com", "PDF Report", "");
 		}	
 
 	/**
