@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Default Test(failed)">
+    <classes>
+      <class name="com.demoaut.newtours.Testscripts.InvalidUser">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="userValidation"/>
+          <include name="tearDown"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.demoaut.newtours.Testscripts.InvalidUser -->
+      <class name="com.demoaut.newtours.Testscripts.ValidateUser">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="userValidation"/>
+          <include name="tearDown"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.demoaut.newtours.Testscripts.ValidateUser -->
+      <class name="com.demoaut.newtours.Testscripts.BookTicketTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="ticketbookingTest"/>
+          <include name="tearDown"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.demoaut.newtours.Testscripts.BookTicketTest -->
+    </classes>
+  </test> <!-- Default Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

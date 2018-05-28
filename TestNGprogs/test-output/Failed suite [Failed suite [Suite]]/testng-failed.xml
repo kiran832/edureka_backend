@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Suite]]]">
+  <test name="EdgeTest(failed)(failed)(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="TestNGdemos.CrossBrowserT">
+        <methods>
+          <include name="verifyText2"/>
+          <include name="verifyTitle"/>
+          <include name="openBrowser"/>
+          <include name="verifyRadiobuton"/>
+          <include name="closeBrowser"/>
+          <include name="verifyText1"/>
+        </methods>
+      </class> <!-- TestNGdemos.CrossBrowserT -->
+    </classes>
+  </test> <!-- EdgeTest(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->
